@@ -67,7 +67,8 @@
         <div class="heading">
             <h1 style="text-decoration: underline; color: white;" >Contact Me</h1>
         </div>
-        <form>
+        <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="b736c201-24eb-44a4-80b0-80ed3f66">
         <div class="name">
             <input type="text" id="name" placeholder="Your Name" required>
         </div>
@@ -77,6 +78,7 @@
         <div class="message">
             <textarea placeholder="Your Message" rows="2" cols="21"></textarea>
         </div>
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
         <div class="b2"> 
             <button>Submit</button>
         </div>
